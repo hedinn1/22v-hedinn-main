@@ -1,0 +1,25 @@
+body{
+    margin: 2em auto;
+    max-width: 60em;
+}
+.bigL{
+    font-size: 4em;
+    float: left;
+    padding:0 0.2em;
+    margin: 0;
+}
+.imgR{
+    float: right;
+    margin: 0.2em;
+}
+@media (min-width:1000px){
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+}
+.box{
+    border: 2px solid black;
+    padding: 1em;
+}

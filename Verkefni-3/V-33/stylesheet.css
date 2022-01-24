@@ -1,0 +1,50 @@
+body{
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+nav, footer{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    padding: 1em 0;
+    flex-wrap: wrap;
+}
+nav div, footer a{
+    flex-grow: 1;
+    text-align: center;
+    padding: 1em 0;
+}
+nav div a{
+    padding: 0.8em;
+    background-color: white;
+    border-radius: 0.6cm;
+}
+main{
+    display: grid;
+    gap: 4em;
+}
+header h1{
+    font-size: 3em;
+    text-align: center;
+    font-style: oblique;
+}
+@media screen and (min-width:37.5em){
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    article{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media screen and (min-width:60em){
+    main{
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    article{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}

@@ -1,0 +1,19 @@
+body{
+    max-width: 50em;
+    margin: auto;
+}
+.grid2fr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+.grid3fr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+.grid4fr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+.grid2fr, .grid3fr, .grid4fr{
+    grid-gap: 2em;
+}

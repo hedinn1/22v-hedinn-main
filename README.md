@@ -16,3 +16,5 @@ Forrit sem notuð eru í áfanganum.
 * Verkefnastjórn [GIT](https://git-scm.com/)
 * Vefumsjón: [Github](https://github.com)
 * Vefritunarforrit: [Visual Studio Code](https://code.visualstudio.com/)
+
+Héðinn ok
